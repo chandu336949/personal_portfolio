@@ -1,31 +1,23 @@
 import { Code2, Brain, Users, Rocket } from "lucide-react";
-
 const About = () => {
-  const highlights = [
-    {
-      icon: Code2,
-      title: "Full-Stack Development",
-      description: "Building end-to-end web applications with React, Node.js, and modern frameworks"
-    },
-    {
-      icon: Brain,
-      title: "AI & Machine Learning",
-      description: "Developing intelligent solutions using Python, deep learning, and CNN architectures"
-    },
-    {
-      icon: Users,
-      title: "Open Source Contributor",
-      description: "Active contributor to GirlScript Summer of Code with real-world collaboration experience"
-    },
-    {
-      icon: Rocket,
-      title: "Continuous Learner",
-      description: "Passionate about staying current with emerging technologies and best practices"
-    }
-  ];
-
-  return (
-    <section id="about" className="py-24 bg-background">
+  const highlights = [{
+    icon: Code2,
+    title: "Full-Stack Development",
+    description: "Building end-to-end web applications with React, Node.js, and modern frameworks"
+  }, {
+    icon: Brain,
+    title: "AI & Machine Learning",
+    description: "Developing intelligent solutions using Python, deep learning, and CNN architectures"
+  }, {
+    icon: Users,
+    title: "Open Source Contributor",
+    description: "Active contributor to GirlScript Summer of Code with real-world collaboration experience"
+  }, {
+    icon: Rocket,
+    title: "Continuous Learner",
+    description: "Passionate about staying current with emerging technologies and best practices"
+  }];
+  return <section id="about" className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
@@ -60,7 +52,7 @@ const About = () => {
             {/* Stats */}
             <div className="grid grid-cols-2 gap-6">
               <div className="p-6 rounded-2xl bg-card shadow-card border border-border/50 text-center">
-                <div className="text-4xl font-bold gradient-text mb-2">9.27</div>
+                
                 <div className="text-sm text-muted-foreground">CGPA</div>
               </div>
               <div className="p-6 rounded-2xl bg-card shadow-card border border-border/50 text-center">
@@ -80,23 +72,16 @@ const About = () => {
 
           {/* Highlights Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {highlights.map((item, index) => (
-              <div 
-                key={index}
-                className="group p-6 rounded-2xl bg-card shadow-card border border-border/50 hover:shadow-card-hover hover:border-primary/20 transition-all duration-300"
-              >
+            {highlights.map((item, index) => <div key={index} className="group p-6 rounded-2xl bg-card shadow-card border border-border/50 hover:shadow-card-hover hover:border-primary/20 transition-all duration-300">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                   <item.icon className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">{item.title}</h3>
                 <p className="text-sm text-muted-foreground">{item.description}</p>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
