@@ -1,27 +1,35 @@
 import { Code, Database, Wrench, Layout } from "lucide-react";
+
 const Skills = () => {
-  const skillCategories = [{
-    icon: Code,
-    title: "Programming Languages",
-    color: "from-blue-500 to-cyan-500",
-    skills: ["Python", "Java", "C", "JavaScript", "HTML", "CSS", "SQL"]
-  }, {
-    icon: Layout,
-    title: "Frameworks & Libraries",
-    color: "from-teal-500 to-emerald-500",
-    skills: ["React.js", "Node.js", "Express.js", "Bootstrap", "Flexbox", "REST APIs"]
-  }, {
-    icon: Database,
-    title: "Databases",
-    color: "from-violet-500 to-purple-500",
-    skills: ["MySQL", "SQLite"]
-  }, {
-    icon: Wrench,
-    title: "Tools & Platforms",
-    color: "from-orange-500 to-amber-500",
-    skills: ["Git", "GitHub", "VS Code", "Figma", "Canva", "Streamlit"]
-  }];
-  return <section id="skills" className="py-24 bg-muted/30">
+  const skillCategories = [
+    {
+      icon: Code,
+      title: "Programming Languages",
+      color: "from-blue-500 to-cyan-500",
+      skills: ["Python", "Java", "C", "JavaScript", "HTML", "CSS", "SQL"]
+    },
+    {
+      icon: Layout,
+      title: "Frameworks & Libraries",
+      color: "from-teal-500 to-emerald-500",
+      skills: ["React.js", "Node.js", "Express.js", "Bootstrap", "Flexbox", "REST APIs"]
+    },
+    {
+      icon: Database,
+      title: "Databases",
+      color: "from-violet-500 to-purple-500",
+      skills: ["MySQL", "SQLite"]
+    },
+    {
+      icon: Wrench,
+      title: "Tools & Platforms",
+      color: "from-orange-500 to-amber-500",
+      skills: ["Git", "GitHub", "VS Code", "Figma", "Canva", "Streamlit"]
+    }
+  ];
+
+  return (
+    <section id="skills" className="py-24 bg-muted/30">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
@@ -37,7 +45,11 @@ const Skills = () => {
 
           {/* Skills Grid */}
           <div className="grid md:grid-cols-2 gap-8">
-            {skillCategories.map((category, index) => <div key={index} className="group p-8 rounded-2xl bg-card shadow-card border border-border/50 hover:shadow-card-hover transition-all duration-300">
+            {skillCategories.map((category, index) => (
+              <div 
+                key={index}
+                className="group p-8 rounded-2xl bg-card shadow-card border border-border/50 hover:shadow-card-hover transition-all duration-300"
+              >
                 <div className="flex items-center gap-4 mb-6">
                   <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${category.color} flex items-center justify-center shadow-lg`}>
                     <category.icon className="w-6 h-6 text-white" />
@@ -46,9 +58,17 @@ const Skills = () => {
                 </div>
                 
                 <div className="flex flex-wrap gap-3">
-                  {category.skills.map((skill, skillIndex) => {})}
+                  {category.skills.map((skill, skillIndex) => (
+                    <span 
+                      key={skillIndex}
+                      className="px-4 py-2 rounded-lg bg-muted text-foreground text-sm font-medium border border-border/50 hover:border-primary/30 hover:bg-primary/5 transition-all duration-200"
+                    >
+                      {skill}
+                    </span>
+                  ))}
                 </div>
-              </div>)}
+              </div>
+            ))}
           </div>
 
           {/* AI/ML Expertise Banner */}
@@ -74,6 +94,8 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Skills;
