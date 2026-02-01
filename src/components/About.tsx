@@ -54,10 +54,7 @@ const About = () => {
               
               
               
-              <div className="p-6 rounded-2xl bg-card shadow-card border border-border/50 text-center">
-                <div className="text-4xl font-bold gradient-text mb-2">87%</div>
-                
-              </div>
+              
             </div>
           </div>
 
