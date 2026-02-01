@@ -1,8 +1,6 @@
 import { GraduationCap, Award, Trophy, Star } from "lucide-react";
-
 const Education = () => {
-  return (
-    <section id="education" className="py-24 bg-background">
+  return <section id="education" className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
@@ -64,7 +62,7 @@ const Education = () => {
                       <Award className="w-4 h-4 text-amber-600" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-foreground">Top Rank in CSE Department</h4>
+                      <h4 className="font-semibold text-foreground">Secured Top Rank in CSE Department</h4>
                       <p className="text-sm text-muted-foreground mt-1">
                         Secured top rank for academic excellence and awarded an official certificate of merit
                       </p>
@@ -90,8 +88,6 @@ const Education = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Education;
