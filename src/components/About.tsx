@@ -57,7 +57,7 @@ const About = () => {
                 <div className="text-sm text-muted-foreground">Projects Built</div>
               </div>
               <div className="p-6 rounded-2xl bg-card shadow-card border border-border/50 text-center">
-                <div className="text-4xl font-bold gradient-text mb-2">2+</div>
+                
                 
               </div>
               <div className="p-6 rounded-2xl bg-card shadow-card border border-border/50 text-center">
