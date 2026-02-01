@@ -34,7 +34,7 @@ const About = () => {
               <p className="text-lg text-muted-foreground leading-relaxed">
                 I'm a <span className="text-foreground font-medium">Computer Science undergraduate</span> at Raghu Engineering College 
                 with a strong passion for software development and artificial intelligence. Currently maintaining a 
-                <span className="text-primary font-semibold"> CGPA of 9.27/10</span>, I strive for academic excellence while 
+                <span className="text-primary font-semibold"> </span>, I strive for academic excellence while 
                 building practical, real-world applications.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
