@@ -31,8 +31,7 @@ const About = () => {
           {/* About Content */}
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a <span className="text-foreground font-medium">Computer Science undergraduate</span> at Raghu Engineering College 
+              <p className="text-lg text-muted-foreground leading-relaxed">I'm a Computer Science undergraduate at Raghu Engineering College with a strong passion for software development and artificial intelligence. I strive for academic excellence while building practical, real-world applications.<span className="text-foreground font-medium">Computer Science undergraduate</span> at Raghu Engineering College 
                 with a strong passion for software development and artificial intelligence. Currently maintaining a 
                 <span className="text-primary font-semibold"> </span>, I strive for academic excellence while 
                 building practical, real-world applications.
