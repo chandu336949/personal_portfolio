@@ -30,8 +30,7 @@ const Education = () => {
 
                 <div className="flex items-center gap-3 mt-5 pt-5 border-t border-border/50">
                   <Star className="w-5 h-5 text-amber-500 fill-amber-500" />
-                  <span className="text-2xl font-bold gradient-text">9.27</span>
-                  <span className="text-muted-foreground">/ 10 CGPA</span>
+                  <span className="text-muted-foreground">Specialization in Software Engineering, Data Structures & Web Development</span>
                 </div>
               </div>
             </div>
