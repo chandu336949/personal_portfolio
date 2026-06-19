@@ -9,7 +9,7 @@ const About = () => {
   ];
 
   const stats = [
-    { value: "9.27", label: "CGPA" },
+    { value: "5+", label: "Tech Stacks" },
     { value: "3+", label: "Featured Projects" },
     { value: "2", label: "Internships" },
     { value: "4+", label: "Certifications" },
