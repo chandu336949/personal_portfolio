@@ -35,7 +35,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }} className="text-xl font-bold">
-            <span className="gradient-text">Chandusri.dev</span>
+            <span className="gradient-text">Chandusri</span>
           </a>
 
           <div className="hidden lg:flex items-center gap-7">
