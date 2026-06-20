@@ -18,15 +18,15 @@ const Hero = () => {
         <div className="animate-slide-up">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8">
             <span className="w-2 h-2 bg-secondary rounded-full animate-pulse" />
-            <span className="text-sm font-medium text-primary-foreground/80">Open to Software & Frontend Developer roles</span>
+            <span className="text-sm font-medium text-primary-foreground/80">Open to Software & Fullstack Developer roles</span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-primary-foreground tracking-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-primary-foreground tracking-tight">
             Kuramdasu <span className="gradient-text">Chandusri</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-primary-foreground/80 mb-4 font-light">
-            Frontend Developer <span className="text-primary-foreground/40">|</span> React Developer <span className="text-primary-foreground/40">|</span> Problem Solver
+            Fullstack Developer <span className="text-primary-foreground/40">|</span> React Developer <span className="text-primary-foreground/40">|</span> Problem Solver
           </p>
 
           <p className="max-w-2xl mx-auto text-primary-foreground/60 mb-6 leading-relaxed">
