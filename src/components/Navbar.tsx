@@ -47,7 +47,6 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex items-center gap-2">
-            <ThemeToggle className={iconColor} />
             <Button size="sm" asChild>
               <a href="/KuramdasuChandusri_Resume.pdf" download>
                 <Download className="w-4 h-4 mr-2" />
@@ -70,7 +69,6 @@ const Navbar = () => {
                 </button>
               ))}
               <div className="flex items-center gap-2 pt-2 px-2">
-                <ThemeToggle />
                 <Button size="sm" className="flex-1" asChild>
                   <a href="/KuramdasuChandusri_Resume.pdf" download>
                     <Download className="w-4 h-4 mr-2" />
