@@ -16,11 +16,6 @@ const Hero = () => {
 
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="animate-slide-up">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8">
-            <span className="w-2 h-2 bg-secondary rounded-full animate-pulse" />
-            <span className="text-sm font-medium text-primary-foreground/80">Open to Software & Fullstack Developer roles</span>
-          </div>
-
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-primary-foreground tracking-tight">
             Kuramdasu <span className="gradient-text">Chandusri</span>
           </h1>
