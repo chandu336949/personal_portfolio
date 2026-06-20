@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import ThemeToggle from "@/components/ThemeToggle";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
