@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import ThemeToggle from "@/components/ThemeToggle";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -48,7 +47,6 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex items-center gap-2">
-            <ThemeToggle className={iconColor} />
             <Button size="sm" asChild>
               <a href="/KuramdasuChandusri_Resume.pdf" download>
                 <Download className="w-4 h-4 mr-2" />
@@ -71,7 +69,6 @@ const Navbar = () => {
                 </button>
               ))}
               <div className="flex items-center gap-2 pt-2 px-2">
-                <ThemeToggle />
                 <Button size="sm" className="flex-1" asChild>
                   <a href="/KuramdasuChandusri_Resume.pdf" download>
                     <Download className="w-4 h-4 mr-2" />

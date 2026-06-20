@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, MapPin, Download, FileText, ChevronDown } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, FileText, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const RESUME_URL = "/KuramdasuChandusri_Resume.pdf";
@@ -49,26 +49,6 @@ const Hero = () => {
                 <FileText className="w-4 h-4 mr-2" />
                 View Resume
               </a>
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10"
-              asChild
-            >
-              <a href={RESUME_URL} download="KuramdasuChandusri_Resume.pdf">
-                <Download className="w-4 h-4 mr-2" />
-                Download Resume
-              </a>
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10"
-              onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
-            >
-              <Mail className="w-4 h-4 mr-2" />
-              Contact Me
             </Button>
           </div>
 
