@@ -2,7 +2,7 @@
 
 A sleek, responsive, single-page developer portfolio website designed to showcase my projects, core technical skills, and problem-solving journey.
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live%20Preview-brightgreen?style=for-the-badge&logo=vercel)](https://chandusri-portfolio.lovable.app)
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20Preview-brightgreen?style=for-the-badge&logo=vercel)](https://chandusrikuramdasu-portfolio.vercel.app/)
 
 ---
 
